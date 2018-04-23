@@ -1,0 +1,18 @@
+html{
+    background: repeating-linear-gradient(white,lightyellow -60%, yellow 100%);/*For multiple linear gradient colors*/
+} /*Used white in combination of light yellow and yellow to get desired output*/
+
+header{
+    top: 0px;
+    height: 70px;
+    width: 140px; /*More width than height to get a oval shape after applying border-radius*/
+    background:blue;
+    border: 1px solid blue;
+    border-color:blue;
+    border-radius: 50%; /*To apply a round border*/
+}
+
+div{
+    color: white;
+    transform: translate(20px,20px); /*internal space 20px-using translate to position this div tag realative to header tag*/    
+}
